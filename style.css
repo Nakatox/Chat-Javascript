@@ -1,0 +1,221 @@
+:root{
+    --color-background_blue: #23272a;
+    --color-light:#ffffff;
+    --color-light-dark:#7289da;
+    --color-dark:#2c2f33;
+}
+
+body{
+    background-color: var(--color-background_blue);
+}
+.disco{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: var(--color-light-dark);
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    cursor: pointer;
+    width: 100px;
+    font-family: sans-serif;
+
+}
+.loading{
+    margin-top: 320px;
+    margin-left: 850px;
+}
+.connexion{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    transition: 0.2s linear;
+}
+.message123{
+    background-color: var(--color-dark);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 40px;
+    max-width: auto;
+}
+.messages{
+   
+}
+.messageUser{
+    margin-left: 60%;
+}
+
+.content-nickname{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+.content-message{
+    max-width: 600px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    padding-left: 10px;
+    padding-top: 8px;
+    overflow-wrap: break-word;
+
+}
+.content-year{
+    display: none;
+	justify-content: flex-end;
+    margin-top: -30px;
+    top: 40px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.content-date{
+    margin-top: -10px;
+    display: none;
+	justify-content: flex-end;
+    top: 0;
+    top: 40px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+    
+}
+.buttonedit{
+    background-color: var(--color-light-dark);
+    border : none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 15px;
+    padding: 5px;
+    right: 50px;
+    width: 68px;
+}
+.buttonnum{
+    background-color: var(--color-light-dark);
+    border : none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 15px;
+    padding: 5px;
+    right: 50px;
+    width: 68px;
+    right: 200px;
+}
+.buttondelete{
+    right: 125px;
+}
+.checkboxdiv{
+    color: white;
+    cursor: pointer;
+}
+
+.message{
+    border-radius: 10px;
+    box-shadow: -5px 17px 45px 12px rgba(0,0,0,0.16);
+    height: 40px;
+    width: 500px;
+    background-color: var(--color-dark);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: white;
+}
+.send{
+    border-radius: 10px;
+    background-color: var(--color-light-dark);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 90px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.connected>form{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-bottom: 20px;
+}
+.connexion>form{
+    background-color: var(--color-dark);
+    width: 300px;
+    height: 350px;
+    border-radius: 40px;
+    box-shadow: -5px 14px 39px 8px rgba(0,0,0,0.16);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    transition:transform 0.2s ease;
+    margin-top: 250px;
+}
+.logo{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 700px;
+    margin-top: 250px;
+}
+.connexion>form>div>input{
+    border-radius: 20px;
+    box-shadow: -5px 14px 39px 8px rgba(0,0,0,0.16);
+    height: 40px;
+    background-color: var(--color-light);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.enter{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 260px;
+    transition:transform 5s ease;
+    font-size: 18px;
+
+}
+.enter:hover{
+    background-color: var(--color-light-dark);
+}
+.connexion>form{
+    
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.connexion>form>div>p{
+    text-shadow: 2px 2px var(--color-background_blue);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.button:hover{
+    transform: scale(1.2);
+}
+
+.button{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 70px;
+    font-size: 25px;
+    width: 150px;
+    transition:transform 0.2s ease;
+}
+.connexion>form:hover{
+    transform:scale(1.03);
+}
+
+

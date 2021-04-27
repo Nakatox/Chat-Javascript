@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"></script> -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>
+    <script src="//unpkg.com/navigo"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js" integrity="sha512-vPeZ7JCboHcfpqSx5ZD+/jpEhS4JpXxfz9orSvAPPj0EKUVShU2tgy7XkU+oujBJKnWmu4hU7r9MMQNWPfXsYw==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat</title>
+</head>
+<style>
+.connected{
+    display: none;
+}
+.loading{
+    display: none;
+}
+</style>
+<body>
+<div class="connected">
+    
+    <div class="messages">
+
+
+    </div>
+    <form action="" class="form">
+        <input type="text" class="message" placeholder="Enter your message">
+        <input type="submit" value="send" class="send">
+    </form>
+    <p class="disco">Disconnect</p>
+    <div class="checkbox">
+
+    </div>
+</div>
+<div class="loading">
+    <img src="https://cdn.discordapp.com/attachments/414258067870449665/445736475158380544/discord.gif" alt="">
+</div>
+<div class="connexion">
+    <img src="logo.png" alt="" class="logo">
+    <form action="" class="formconnect">
+        <div>
+      <p>Email : </p> <input type="text" class="email enter" >
+    </div>
+    <div>
+       <p>Password :</p>  <input type="password" class="password enter" >
+    </div>
+    <div>
+       <input type="submit" value="Connexion" class="button">
+    </div>
+    </form>
+</div>
+
+</body>
+</html>
